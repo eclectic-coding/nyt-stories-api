@@ -1,10 +1,11 @@
 import '../../src/styles/main.scss';
-require('dotenv').config()
 
 const API_KEY = process.env.API_KEY
+
 const endpoint = `https://api.nytimes.com/svc/topstories/v2/home.json?api-key=${API_KEY}`
 let elApp = document.querySelector('#app')
 
+console.log(endpoint)
 function getNews() {
   return fetch(endpoint)
     .then(resp => {
