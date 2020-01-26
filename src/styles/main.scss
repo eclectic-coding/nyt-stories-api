@@ -1,0 +1,74 @@
+body {
+  margin: 1em auto;
+  max-width: 60em;
+  width: 88%;
+  background: #373b44; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4286f4, #373b44); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4286f4, #373b44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0 1em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  border-radius: 0.5em;
+
+}
+
+hr {
+  width: 80%;
+  color: #717171;
+}
+
+.story__border {
+  border-bottom: rebeccapurple;
+  border-bottom-width: 1px;
+  margin-top: 2em;
+}
+
+.story__section {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #e80707;
+  margin: 0 0 1em 0;
+}
+
+.story__title {
+  font-weight: bold;
+}
+
+.story__date {
+  color: #757575;
+  padding-left: 1em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.story__box-image {
+  display: inline-block;
+  vertical-align: top;
+  width: 35%;
+  height: auto;
+  margin-right: 1em;
+  margin-bottom: 2em;
+}
+
+.story__box-content {
+  display: inline-block;
+  width: 50%;
+}
+
+.card {
+  padding: 1em 1em;
+  margin: 3em 0;
+  border: 1px solid #ececec;
+  background-color: #fff;
+  border-radius: .5em;
+}
