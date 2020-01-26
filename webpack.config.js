@@ -78,6 +78,8 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: 'bundle.css'
     }),
-    new Dotenv(),
+    new Dotenv({
+      path: './.env',
+    }),
   ]
 }
